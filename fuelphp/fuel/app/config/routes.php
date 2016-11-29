@@ -8,6 +8,7 @@ return array(
 	'test' => 'samplebefore/test',
 	'router/(:any)' => 'samplerouter/$1',
 	'view' => 'viewsample/',
+	'logtime' => 'showfile/index',
 	//正規表現によるルーティング
 	'bbs/(:any)' => 'routingtest/entry/$1',
 	'(:segment)/about' => 'routingtest/about/$1',
