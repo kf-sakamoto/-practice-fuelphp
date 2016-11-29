@@ -17,6 +17,7 @@ class Controller_Samplebefore extends Controller
 	public function action_index()
 	{
 		$output = $this->current_user. 'さん' . __METHOD__ . 'が実行されました。<br>';
+		$output .= Html::anchor(Router::get('test'), '名前付きルートのテスト') . '<br>';
 		return $output;
 	}
 
